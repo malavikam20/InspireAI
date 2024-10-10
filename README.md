@@ -2,6 +2,7 @@
 
 An innovative AI-powered application designed to generate personalized content across various categories, including YouTube video ideas, novel writing prompts, game development concepts, and blog content.
 
+## Live demo here: [InspireAI](https://newaicontenthere27.netlify.app)
 ## Features
 
 - **Dynamic Content Generation**: Leverage the Gemini API for generating personalized content tailored to user preferences.
