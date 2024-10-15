@@ -40,7 +40,7 @@ async function History() {
             <h2 className='col-span-2'>TEMPLATE</h2>
             <h2 className='col-span-2'>AI RESPONSE</h2>
             <h2>DATE</h2>
-            <h2>WORDS</h2>
+            <h2>CHARACTERS</h2>
             <h2>COPY</h2>
         </div>
         {HistoryList.map((item:HISTORY,index:number)=>(
