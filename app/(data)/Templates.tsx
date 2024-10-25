@@ -1,10 +1,10 @@
 export default  [
     {
         name:'Blog Title',
-        desc:'An AI tool that generates blog title depends on your blog information,
+        desc:'An AI tool that generates blog titles depending on your blog information,
         category:'Blog',
         icon:'https://cdn-icons-png.flaticon.com/128/4186/4186534.png',
-        aiPrompt:'Give me 5 blog topic ideas in bullet wise only based on given niche & outline and give me results in Rich text editor format',
+        aiPrompt:'Give me 10 blog topic ideas in bullets based on the given niche & outline and give me results in Rich text editor format. These ideas should really look catchy and attractive',
         slug:'generate-blog-title',
         form:[
             {
@@ -23,7 +23,7 @@ export default  [
     },
     {
         name: 'Blog Content',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that serves as your personal blog post content, generating catchy and viral-worthy contents in your chosen language.',
         category: 'blog',
         icon: 'https://cdn-icons-png.flaticon.com/128/4905/4905454.png',
         slug: 'blog-content-generation',
@@ -44,11 +44,11 @@ export default  [
     },
     {
         name: 'Blog Topic Ideas',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that serves as your personal blog post topic generator, generating catchy and viral-worthy topic ideas in your chosen language.',
         category: 'Blog',
         icon: 'https://cdn-icons-png.flaticon.com/128/11497/11497847.png',
         slug: 'blog-topic-idea',
-        aiPrompt: 'Generate top 5 Blog Topic Ideas in bullet point only, (no Description) based on the niche in rich text editor format',
+        aiPrompt: 'Generate top 10 Blog Topic Ideas in bullets, (no Description) based on the niche in rich text editor format',
         form: [
             {
                 label: 'Enter your Niche',
@@ -60,11 +60,11 @@ export default  [
     },
     {
         name: 'Youtube SEO Title',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that generates SEO-optimised Titles, which are catchy and viral-worthy titles in your chosen language.',
         category: 'Youtube Tools',
         icon: 'https://cdn-icons-png.flaticon.com/128/402/402075.png',
         slug: 'youtube-seo-title',
-        aiPrompt: 'Give me the Best SEO optimized high ranked 5 title ideas bullet wise only based on keywords and outline and give me results in HTML tags format',
+        aiPrompt: 'Give me the Best SEO optimized high ranked 10 title ideas in bullets based on keywords and outline and give me results in HTML tags format',
         form: [
             {
                 label: 'Enter your youtube video topic keywords',
@@ -83,7 +83,7 @@ export default  [
     {
 
         name: 'Youtube Description',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that helps you write Youtube description with attractive content under 4-5 lines based on topic and outline in rich text editor format.',
         category: 'Youtube Tool',
         icon: 'https://cdn-icons-png.flaticon.com/128/2111/2111748.png',
         slug: 'youtube-description',
@@ -104,7 +104,7 @@ export default  [
     },
     {
         name: 'Youtube Tags',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that helps you generate Youtube tags in bullet point based on title and outline in rich text editor format.',
         category: 'Youtube Tool',
         icon: 'https://cdn-icons-png.flaticon.com/128/4674/4674918.png',
         slug: 'youtube-tag',
@@ -159,7 +159,7 @@ export default  [
     },
     {
         name: 'Add Emojis to Text',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that helps you add emojis to your text, making it more engaging and fun.',
         icon: 'https://cdn-icons-png.flaticon.com/128/2584/2584606.png',
         category: 'blog',
         slug: 'add-emoji-to-text',
@@ -175,7 +175,7 @@ export default  [
     },
     {
         name: 'Instagram Post Generator',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that generate Instagram post depends on your keywords and give output in rich text editor format',
         icon: 'https://cdn-icons-png.flaticon.com/128/15713/15713420.png',
         category: 'blog',
        
@@ -193,7 +193,7 @@ export default  [
     },
     {
         name: 'Instagram Hash Tag Generator',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that generate Instagram hash tag depends on your keywords and give output in rich text editor format',
         icon: 'https://cdn-icons-png.flaticon.com/128/7045/7045432.png',
         category: 'blog',
        
@@ -211,7 +211,7 @@ export default  [
     },
     {
         name: 'Instagram Post/Reel Idea',
-        desc: 'An AI tool that generates New and trending Instagram idea depends on your niche',
+        desc: 'An AI tool that generates New and trending Instagram Post/Reel ideas depends on your niche',
         icon: 'https://cdn-icons-png.flaticon.com/128/1029/1029183.png',
         category: 'Instagram',
        
@@ -229,7 +229,7 @@ export default  [
     },
     {
         name: 'English Grammar Check',
-        desc: 'AI Model to Correct your english grammar by providing the text',
+        desc: 'AI Model to Correct your English grammar by providing the text',
         icon:'https://cdn-icons-png.flaticon.com/128/12596/12596700.png',
         category: 'english',
        
